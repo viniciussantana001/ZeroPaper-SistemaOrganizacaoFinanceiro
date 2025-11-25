@@ -64,6 +64,40 @@ Mostra o progresso, sugere cortes e guarda o valor mensal virtualmente
 - Economia facilitada e metas alcançadas
 - Simples, rápido e acessível
 
+# ZeroPaper
+
+Este repositório contém um app financeiro simples (ZeroPaper) com:
+- Tela de Login (usuário/senha via AsyncStorage ou registrar)
+- Tela principal (Dash) com lista de transações (FlatList)
+- Telas: Transactions, Categories, Goals, Settings
+- Navegação por Bottom Tabs (React Navigation)
+- Armazenamento local via AsyncStorage
+
+## Como rodar (local)
+
+1. Instale o Expo CLI (se não tiver):
+   ```bash
+   npm install -g expo-cli
+   ```
+2. Instale dependências:
+   ```bash
+   npm install
+   ```
+3. Rode o app:
+   ```bash
+   npm start
+   ```
+   ou
+   ```bash
+   expo start
+   ```
+
+## Responsabilidades do grupo (preenchido)
+- Nathan — Programação (implementou a maior parte da lógica e integração)
+- Leonardo Rodrigues — Layout / UI (estilização e design com StyleSheet)
+- Eyke — Lógica / Estados (FlatList, manipulação de transações, AsyncStorage)
+- Vinícius — Documentação (README, vídeo e organização do repositório)
+
 ---
 
 **ZeroPaper: organize sua vida financeira e realize seus sonhos.**
